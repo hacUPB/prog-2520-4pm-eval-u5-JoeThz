@@ -8,13 +8,13 @@ modo = input("Ingrese el modo de apertura del archivo, r (leer), w(reescribir), 
 fp = open(ruta + "\\" + file_name, modo, encoding="utf-8")
 
 # Usamos 'with' para crear el contexto y escribir datos en el archivo 
-with open(file_name, w) as archivo:
+with open(file_name, "w") as archivo:
     # Solicitamos al usuario los datos a escribir en el archivo
     datos = input("Ingrese los datos que desea escribir en el archivo: ")
     archivo.write(datos)
 
 # Ahora usamos 'with' para crear el contexto donde leer los datos del archivo
-with open(file_name, r) as archivo:
+with open(file_name, "r") as archivo:
     contenido = archivo.read()
     print("Contenido del archivo:")
     print(contenido)

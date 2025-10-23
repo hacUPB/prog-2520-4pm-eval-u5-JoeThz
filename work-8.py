@@ -5,7 +5,7 @@ file_info = ruta+"\\"+file_name
 modo = "r"
 
 
-with open(file_info, modo, encoding="utf-8") as archivo:
+with open(file_info, modo, encoding="utf-8") as archivo: #el "with" es un manejador de contextos.
     # Hacer operaciones con el archivo
     for dato in archivo:
         print(dato, end="")
