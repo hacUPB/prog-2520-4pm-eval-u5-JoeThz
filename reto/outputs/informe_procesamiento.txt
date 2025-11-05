@@ -1,0 +1,28 @@
+Archivo: relatividad.txt
+ - Número de palabras: 344
+ - Caracteres (con espacios): 2212
+ - Caracteres (sin espacios): 1868
+ - Conteo vocales: {'a': 200, 'e': 264, 'i': 138, 'o': 146, 'u': 50}
+ - Histograma guardado en: /mnt/data/outputs/hist_vocales_relatividad.png
+CSV encontrado: salida_mensual_pasajeros_aeropuerto_destino_internacional.csv
+Cabecera (5 columnas): ['sal_codigo', 'sal_destinoint', 'sal_indicador', 'sal_periodo', 'sal_valor']
+Primeras 15 filas:
+['EC', 'Ecuador', 'SALIDA_PAX', '202209', '1058']
+['KR', 'Corea del Sur', 'SALIDA_PAX', '202209', '1']
+['BB', 'Barbados', 'SALIDA_PAX', '202209', '1']
+['IL', 'Israel', 'SALIDA_PAX', '202209', '23']
+['KY', 'Islas Caimán', 'SALIDA_PAX', '202209', '1']
+['CA', 'Canadá', 'SALIDA_PAX', '202209', '740']
+['SA', 'Arabia Saudita', 'SALIDA_PAX', '202209', '1']
+['IT', 'Italia', 'SALIDA_PAX', '202209', '417']
+['GB', 'Reino Unido', 'SALIDA_PAX', '202209', '560']
+['JM', 'Jamaica', 'SALIDA_PAX', '202209', '11']
+['SV', 'El Salvador', 'SALIDA_PAX', '202209', '155']
+['PA', 'Panamá', 'SALIDA_PAX', '202209', '27639']
+['US', 'Estados Unidos', 'SALIDA_PAX', '202209', '41865']
+['ES', 'España', 'SALIDA_PAX', '202209', '8575']
+['PY', 'Paraguay', 'SALIDA_PAX', '202209', '41']
+Se seleccionó la columna índice 3: 'sal_periodo' con 499 valores numéricos detectados (de 499).
+Estadísticas columna 'sal_periodo': n=499, promedio=201644.471, mediana=201709.000, desv=350.336, max=202209.000, min=201009.000
+ - Gráfico de dispersión guardado en: /mnt/data/outputs/scatter_3.png
+ - Gráfico de barras guardado en: /mnt/data/outputs/bar_3.png
